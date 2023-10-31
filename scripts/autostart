@@ -1,0 +1,6 @@
+exec setxkbmap -layout br &
+exec numlockx &
+feh --bg-scale /usr/share/backgrounds/archlinux/simple.png &
+exec xsetroot -cursor_name left_ptr &
+exec polybar mybar &
+exec bspwm
